@@ -32,7 +32,7 @@ const Project1 = forwardRef((props, ref) => {
             sortuj, dodawaj do koszyka - wszystko będzie się wyświetlać.
           </p>
           <p>Do danych wykorzystano pliki JSON.</p>
-          <a href="avaskins-portfolio.vercel.app">
+          <a href="https://avaskins-portfolio.vercel.app">
             <button className={styles.slide}>Otwórz</button>
           </a>
           <button className={styles.scrollToTop} onClick={scrollToTopHandler}>

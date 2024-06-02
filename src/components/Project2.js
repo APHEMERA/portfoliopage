@@ -34,7 +34,7 @@ const Project2 = forwardRef((props, ref) => {
             Ważne: jeśli na stronie nie wyświetla się żaden produkt, oznacza to, że osiągnięto limit żądań i potrzebny
             jest kolejny klucz API.
           </p>
-          <a href="ay-beauty-portfolio.vercel.app">
+          <a href="https://ay-beauty-portfolio.vercel.app">
             <button className={styles.slide}>Otwórz</button>
           </a>
           <button className={styles.scrollToTop} onClick={scrollToTopHandler}>
