@@ -80,6 +80,11 @@
   border: 1px solid #fffb00;
   padding: 1rem;
 }
+.lang_react {
+  color: #535eff;
+  border: 1px solid #535eff;
+  padding: 1rem;
+}
 .scrollToTop {
   position: absolute;
   bottom: 5rem;

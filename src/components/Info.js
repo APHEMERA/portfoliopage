@@ -6,6 +6,9 @@ const Info = ({ projectRefs }) => {
   const project2ClickHandler = () => {
     projectRefs.project2Ref.current.scrollIntoView({ behavior: "smooth" });
   };
+  const project3ClickHandler = () => {
+    projectRefs.project3Ref.current.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <section className={styles.mainSection}>
       <div className={styles.parent}>
@@ -35,7 +38,9 @@ const Info = ({ projectRefs }) => {
             </li>
             <li>
               <div className={styles.verticalLine}></div>
-              <button className={styles.slide}>CLOUD PIXEL</button>
+              <button className={styles.slide} onClick={project3ClickHandler}>
+                CLOUD PIXEL
+              </button>
             </li>
           </ul>
         </div>
