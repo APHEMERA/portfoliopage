@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.list {
+  display: flex;
+  list-style: none;
+  padding: 0 1rem;
+}
+.list > li {
+  padding: 0 1rem;
+  display: flex;
+}
+.list > li > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+}
+.mailto {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.mailto:hover {
+  color: #cc324c;
+}

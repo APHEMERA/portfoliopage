@@ -1,0 +1,97 @@
+.projectParent {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project {
+  display: flex;
+  background-color: #181b24;
+  padding: 15rem 5rem;
+  width: fit-content;
+  height: fit-content;
+  gap: 5rem;
+  max-width: 150rem;
+  border-radius: 3rem;
+  position: relative;
+}
+.projectLeftSide {
+}
+.projectRightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projectRightSide > h2 {
+  color: #fff;
+  font-size: 8rem;
+}
+.projectRightSide > p {
+  margin-top: 5rem;
+  color: #c5c5c5;
+  font-size: 2.5rem;
+}
+.video {
+  width: 100%;
+  height: auto;
+  border: 2px solid #cc324c;
+  border-radius: 1.5rem;
+}
+.slide {
+  background: none;
+  outline: none;
+  border: 2px solid #cc324c;
+  font-size: 3rem;
+  padding: 1rem 8rem;
+  color: #fff;
+  width: fit-content;
+  cursor: pointer;
+  margin-top: 2rem;
+  border-radius: 1.5rem;
+}
+.slide:hover {
+  box-shadow: inset 30rem 4rem 0rem 0 #cc324c;
+  transition: 0.5s;
+}
+.languages > ul {
+  display: flex;
+  font-size: 2rem;
+  list-style: none;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.lang_html {
+  color: #ff8800;
+  border: 1px solid #ff8800;
+  padding: 1rem;
+}
+.lang_css {
+  color: #0011ff;
+  border: 1px solid #0011ff;
+  padding: 1rem;
+}
+.lang_scss {
+  color: #ff00f2;
+  border: 1px solid #ff00f2;
+  padding: 1rem;
+}
+.lang_js {
+  color: #fffb00;
+  border: 1px solid #fffb00;
+  padding: 1rem;
+}
+.scrollToTop {
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+  background: none;
+  border: none;
+  border: 2px solid #cc324c;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+.scrollToTop:hover {
+  box-shadow: inset 8rem 4rem 0rem 0 #cc324c;
+  transition: 0.5s;
+}

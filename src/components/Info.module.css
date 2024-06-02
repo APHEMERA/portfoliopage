@@ -1,0 +1,71 @@
+.parent {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #181b24;
+  background: linear-gradient(90deg, #181b24 35%, rgba(255, 255, 255, 0) 100%);
+  height: fit-content;
+  padding: 4rem;
+  border-radius: 1.5rem;
+}
+
+.mainSection {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  max-width: 150rem;
+}
+.textsInfo {
+  max-width: 80%;
+}
+.textsInfo > h1 {
+  color: #cc324c;
+  font-size: 10rem;
+}
+.textsInfo > p {
+  margin-top: 2rem;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  margin-left: 3rem;
+}
+
+.projectsInfo {
+  position: relative;
+  margin: 5rem 5rem 0 5rem;
+  width: max-content;
+  padding: 4rem;
+  border-radius: 3rem;
+}
+.projectsInfo > h2 {
+  color: #fff;
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}
+.projectsInfo > ul {
+  margin-left: 3rem;
+  list-style: none;
+}
+.projectsInfo > ul > li {
+  width: max-content;
+  margin: 3rem 0;
+  display: flex;
+}
+.verticalLine {
+  background-color: #cc324c;
+  width: 2px;
+  height: 3.4rem;
+}
+.slide {
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 3rem;
+  padding: 0.5rem 0 0.5rem 1rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.slide:hover {
+  box-shadow: inset 20rem 2rem 0rem 0 #cc324c;
+  transition: 0.5s;
+}

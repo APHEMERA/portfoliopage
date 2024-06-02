@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Fragment, useRef } from "react";
+import styles from "./App.module.css";
+import BackgroundVideo from "./components/BackgroundVideo";
+import Header from "./components/Header";
+import Info from "./components/Info";
+import Projects from "./components/Projects";
 function App() {
+  const refs = {
+    project1Ref: useRef(null),
+    project2Ref: useRef(null),
+    project3Ref: useRef(null),
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <BackgroundVideo />
+      <div className={styles.contentTop}>
+        <Header />
+        <Info projectRefs={refs} />
+      </div>
+      <Projects ref={refs} />
+    </Fragment>
   );
 }
 
